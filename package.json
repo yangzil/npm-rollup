@@ -1,0 +1,17 @@
+{
+  "name": "npm-rollup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rollup.config.js",
+  "dependencies": {
+    "rollup-plugin-json": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
