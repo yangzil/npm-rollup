@@ -1,5 +1,11 @@
 import { version } from '../package.json';
 
-export default function () {
-    console.log('version ' + version);
+const util = {
+    test: function() {
+        console.log('firstVersion ' + version);
+        return version + 'lastVersion'
+    }
 }
+window.util = util
+
+export default util
